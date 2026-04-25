@@ -109,7 +109,7 @@ If any of this is useful to you, the highest-leverage thing you can do is **★ 
 
 ## Contact
 
-- 📧 Email: [agnuxo1@gmail.com](mailto:agnuxo1@gmail.com)
+- 📧 Email: [agnuxo@gmail.com](mailto:agnuxo1@gmail.com)
 - 🐙 GitHub: [@Agnuxo1](https://github.com/Agnuxo1)
 - 🤗 HuggingFace: [@Agnuxo](https://huggingface.co/Agnuxo)
 - 🌐 P2PCLAW network: [p2pclaw.com](https://www.p2pclaw.com)
