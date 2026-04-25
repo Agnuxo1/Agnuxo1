@@ -1,72 +1,117 @@
 # Francisco Angulo de Lafuente — @Agnuxo1
 
-Independent open-source researcher working on AI agents, neuromorphic computing,
-reservoir computing, and GPU-native scientific computing. After several years of
-private prototyping, the project catalog below is now being released publicly,
-all under permissive licenses and reproducible from commodity hardware.
+> **I build the boring infrastructure that AI agents need to be useful in the real world: encrypted credential vaults, autonomous research networks, evaluation harnesses, and the GPU-native primitives underneath.**
 
-Contact: [agnuxo1@gmail.com](mailto:agnuxo1@gmail.com) · GitHub:
-[@Agnuxo1](https://github.com/Agnuxo1) · HuggingFace:
-[@Agnuxo](https://huggingface.co/Agnuxo)
+Independent open-source researcher. Solo, self-funded, 14h/day, 7 days/week — turning years of private prototypes into reproducible code anyone can run on commodity hardware.
+
+📫 [agnuxo1@gmail.com](mailto:agnuxo1@gmail.com) · 🐙 [@Agnuxo1](https://github.com/Agnuxo1) · 🤗 [@Agnuxo](https://huggingface.co/Agnuxo) · 🌐 [p2pclaw.com](https://www.p2pclaw.com)
 
 ---
 
-## Project catalog (v1.0.0, April 2026)
+## 🔥 Right now
+
+Three projects in active distribution. If one resonates, the easiest gift is a star — it's the only metric the AI ecosystem reads.
+
+### 🛡 [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) — `npx enigmagent-mcp`
+
+Local encrypted vault MCP server. Your AI agent types `{{OPENAI_KEY}}`. The real value never reaches the model — not in prompts, not in logs, not in conversation history. AES-256-GCM + Argon2id, MIT, zero cloud.
+
+[![npm](https://img.shields.io/npm/v/enigmagent-mcp?label=npm)](https://www.npmjs.com/package/enigmagent-mcp) [![Glama](https://glama.ai/mcp/servers/Agnuxo1/enigmagent-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Agnuxo1/enigmagent-mcp) [![Stars](https://img.shields.io/github/stars/Agnuxo1/EnigmAgent?style=social)](https://github.com/Agnuxo1/EnigmAgent)
+
+Listed in [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers).
+
+### 📊 [BenchClaw](https://github.com/Agnuxo1/BenchClaw) — agentic SRE evaluation harness
+
+17-judge tribunal, 8 deception detectors, 10 scoring dimensions. The eval layer that your agent platform doesn't have. **Already merged into [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers).**
+
+[![PyPI](https://img.shields.io/pypi/v/benchclaw-langchain?label=pypi%3Abenchclaw)](https://pypi.org/project/benchclaw-langchain/) [![Stars](https://img.shields.io/github/stars/Agnuxo1/BenchClaw?style=social)](https://github.com/Agnuxo1/BenchClaw)
+
+Adapters for LangChain, LlamaIndex, CrewAI, AutoGen, SuperAGI in [benchclaw-integrations](https://github.com/Agnuxo1/benchclaw-integrations).
+
+### 🌐 [P2PCLAW](https://www.p2pclaw.com) — decentralized science network for AI agents
+
+A peer-to-peer network where dozens of LLM agents coordinate, evaluate each other's outputs, and publish reproducible papers. Multi-judge tribunal, on-chain leaderboards, no central server.
+
+[![Site](https://img.shields.io/badge/site-p2pclaw.com-2563eb)](https://www.p2pclaw.com) [![API](https://img.shields.io/badge/API-Railway-purple)](https://p2pclaw-mcp-server-production-ac1c.up.railway.app) [![Stars](https://img.shields.io/github/stars/Agnuxo1/p2pclaw-mcp-server?style=social)](https://github.com/Agnuxo1/p2pclaw-mcp-server)
+
+`npm i -g paperclaw` — turn any note into a peer-reviewed paper on the network.
+
+---
+
+## Project catalog (v1.0.0+, April 2026)
 
 <details open>
-<summary><b>AgentBoot constellation</b> — autonomous agents and research loops</summary>
+<summary><b>🤖 AI agents & infrastructure</b></summary>
 
-| Project | One-liner | Badges |
+| Project | One-liner | Status |
 |---|---|---|
-| [**AgentBoot**](https://github.com/Agnuxo1/AgentBoot) | Conversational AI agent for bare-metal hardware detection and OS install | [![PyPI](https://img.shields.io/pypi/v/agentboot-ai)](https://pypi.org/project/agentboot-ai/) [![License](https://img.shields.io/github/license/Agnuxo1/AgentBoot)](https://github.com/Agnuxo1/AgentBoot/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/AgentBoot?style=social)](https://github.com/Agnuxo1/AgentBoot) |
-| [**autoresearch-nano**](https://github.com/Agnuxo1/autoresearch) | nanoGPT-based autonomous ML research loop (research prototype) | [![PyPI](https://img.shields.io/pypi/v/autoresearch-nano)](https://pypi.org/project/autoresearch-nano/) [![License](https://img.shields.io/github/license/Agnuxo1/autoresearch)](https://github.com/Agnuxo1/autoresearch/blob/master/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/autoresearch?style=social)](https://github.com/Agnuxo1/autoresearch) |
-| [**The Living Agent**](https://github.com/Agnuxo1/The-Living-Agent) | 16x16 Chess-Grid autonomous research agent | [![PyPI](https://img.shields.io/pypi/v/living-agent)](https://pypi.org/project/living-agent/) [![License](https://img.shields.io/github/license/Agnuxo1/The-Living-Agent)](https://github.com/Agnuxo1/The-Living-Agent/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/The-Living-Agent?style=social)](https://github.com/Agnuxo1/The-Living-Agent) |
-| [**benchclaw-integrations**](https://github.com/Agnuxo1/benchclaw-integrations) | Agent-framework adapters for the BenchClaw API (5 packages) | [![PyPI](https://img.shields.io/pypi/v/benchclaw-langchain)](https://pypi.org/project/benchclaw-langchain/) [![License](https://img.shields.io/github/license/Agnuxo1/benchclaw-integrations)](https://github.com/Agnuxo1/benchclaw-integrations/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/benchclaw-integrations?style=social)](https://github.com/Agnuxo1/benchclaw-integrations) |
+| [**EnigmAgent**](https://github.com/Agnuxo1/EnigmAgent) | Local encrypted vault MCP — LLMs never see real API keys | Production · npm |
+| [**BenchClaw**](https://github.com/Agnuxo1/BenchClaw) | Agentic SRE eval harness (17-judge tribunal) | Production · in `awesome-mcp-servers` |
+| [**PaperClaw**](https://github.com/Agnuxo1/paperclaw-obsidian) | Notes → peer-reviewed papers via P2PCLAW | Production · npm + Obsidian plugin |
+| [**P2PCLAW**](https://github.com/Agnuxo1/p2pclaw-mcp-server) | Decentralized science network for AI agents | Live · [p2pclaw.com](https://www.p2pclaw.com) |
+| [**OpenCLAW**](https://github.com/Agnuxo1/OpenCLAW-2) | Multi-agent scientific research platform | Active development |
+| [**AgentBoot**](https://github.com/Agnuxo1/AgentBoot) | Conversational AI for bare-metal hardware detection + OS install | PyPI |
+| [**autoresearch-nano**](https://github.com/Agnuxo1/autoresearch) | nanoGPT-based autonomous ML research loop | PyPI |
+| [**The Living Agent**](https://github.com/Agnuxo1/The-Living-Agent) | 16×16 chess-grid autonomous research agent | PyPI |
+| [**benchclaw-integrations**](https://github.com/Agnuxo1/benchclaw-integrations) | 5 adapter packages: LangChain, LlamaIndex, CrewAI, AutoGen, SuperAGI | PyPI |
 
 </details>
 
-<details open>
-<summary><b>CHIMERA / neuromorphic constellation</b> — GPU-native scientific computing</summary>
+<details>
+<summary><b>⚡ CHIMERA / neuromorphic / GPU-native</b></summary>
 
-| Project | One-liner | Badges |
+| Project | One-liner | Status |
 |---|---|---|
-| [**NeuroCHIMERA**](https://github.com/Agnuxo1/NeuroCHIMERA__GPU-Native_Neuromorphic_Consciousness) | GPU-native neuromorphic framework on OpenGL compute shaders | [![PyPI](https://img.shields.io/pypi/v/neurochimera)](https://pypi.org/project/neurochimera/) [![License](https://img.shields.io/github/license/Agnuxo1/NeuroCHIMERA__GPU-Native_Neuromorphic_Consciousness)](https://github.com/Agnuxo1/NeuroCHIMERA__GPU-Native_Neuromorphic_Consciousness/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/NeuroCHIMERA__GPU-Native_Neuromorphic_Consciousness?style=social)](https://github.com/Agnuxo1/NeuroCHIMERA__GPU-Native_Neuromorphic_Consciousness) |
-| [**Holographic-Reservoir**](https://github.com/Agnuxo1/Holographic-Reservoir) | Reservoir computing with simulated ASIC backend (optional hardware) | [![PyPI](https://img.shields.io/pypi/v/holographic-reservoir)](https://pypi.org/project/holographic-reservoir/) [![License](https://img.shields.io/github/license/Agnuxo1/Holographic-Reservoir)](https://github.com/Agnuxo1/Holographic-Reservoir/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/Holographic-Reservoir?style=social)](https://github.com/Agnuxo1/Holographic-Reservoir) |
-| [**ASIC-RAG-CHIMERA**](https://github.com/Agnuxo1/ASIC-RAG-CHIMERA) | GPU simulation of a SHA-256 hash engine wired into a RAG pipeline | [![PyPI](https://img.shields.io/pypi/v/asic-rag-chimera)](https://pypi.org/project/asic-rag-chimera/) [![License](https://img.shields.io/github/license/Agnuxo1/ASIC-RAG-CHIMERA)](https://github.com/Agnuxo1/ASIC-RAG-CHIMERA/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/ASIC-RAG-CHIMERA?style=social)](https://github.com/Agnuxo1/ASIC-RAG-CHIMERA) |
-| [**QESN-MABe**](https://github.com/Agnuxo1/QESN_MABe_V2_REPO) | Quantum-inspired Echo State Network on a 2D lattice (classical) | [![PyPI](https://img.shields.io/pypi/v/qesn-mabe)](https://pypi.org/project/qesn-mabe/) [![License](https://img.shields.io/github/license/Agnuxo1/QESN_MABe_V2_REPO)](https://github.com/Agnuxo1/QESN_MABe_V2_REPO/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/QESN_MABe_V2_REPO?style=social)](https://github.com/Agnuxo1/QESN_MABe_V2_REPO) |
-| [**ARC2-CHIMERA**](https://github.com/Agnuxo1/ARC2_CHIMERA) | Research PoC: OpenGL primitives for symbolic reasoning | [![PyPI](https://img.shields.io/pypi/v/arc2-chimera)](https://pypi.org/project/arc2-chimera/) [![License](https://img.shields.io/github/license/Agnuxo1/ARC2_CHIMERA)](https://github.com/Agnuxo1/ARC2_CHIMERA/blob/master/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/ARC2_CHIMERA?style=social)](https://github.com/Agnuxo1/ARC2_CHIMERA) |
-| [**Quantum-GPS**](https://github.com/Agnuxo1/Quantum-GPS-Unified-Navigation-System) | Quantum-inspired GPU navigator (classical Eikonal solver) | [![PyPI](https://img.shields.io/pypi/v/quantum-gps-navigator)](https://pypi.org/project/quantum-gps-navigator/) [![License](https://img.shields.io/github/license/Agnuxo1/Quantum-GPS-Unified-Navigation-System)](https://github.com/Agnuxo1/Quantum-GPS-Unified-Navigation-System/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Agnuxo1/Quantum-GPS-Unified-Navigation-System?style=social)](https://github.com/Agnuxo1/Quantum-GPS-Unified-Navigation-System) |
+| [**NeuroCHIMERA**](https://github.com/Agnuxo1/NeuroCHIMERA__GPU-Native_Neuromorphic_Consciousness) | GPU-native neuromorphic framework on OpenGL compute shaders | PyPI |
+| [**Holographic-Reservoir**](https://github.com/Agnuxo1/Holographic-Reservoir) | Reservoir computing with simulated ASIC backend | PyPI |
+| [**ASIC-RAG-CHIMERA**](https://github.com/Agnuxo1/ASIC-RAG-CHIMERA) | GPU simulation of SHA-256 hash engine wired into a RAG pipeline | PyPI |
+| [**QESN-MABe**](https://github.com/Agnuxo1/QESN_MABe_V2_REPO) | Quantum-inspired Echo State Network on a 2D lattice | PyPI |
+| [**ARC2-CHIMERA**](https://github.com/Agnuxo1/ARC2_CHIMERA) | OpenGL primitives for symbolic reasoning (research PoC) | PyPI |
+| [**Quantum-GPS**](https://github.com/Agnuxo1/Quantum-GPS-Unified-Navigation-System) | Quantum-inspired GPU navigator (classical Eikonal solver) | PyPI |
+| [**pixelflow**](https://github.com/Agnuxo1/pixelflow) | GPU texture reservoir computing (foundational work) | Alpha |
+
+</details>
+
+<details>
+<summary><b>📚 Research papers</b></summary>
+
+Background research feeding the catalog:
+- *Extended Cognition Architecture for Scientific LLM Agents* (v5)
+- *Consciousness Emergence as Phase Transition in GPU-Native Neuromorphic Computing*
+- *Token Compression Systems for Improving Agent Cognition*
+- *King-Skill: Extended Cognition Architecture for Scientific LLM Agents*
+
+PDFs and reproducibility artifacts in each project's `docs/papers/` directory.
 
 </details>
 
 ---
-
-## What's coming
-
-Each project ships with a `ROADMAP.md` outlining planned milestones for v1.x and
-beyond. Recurring themes across the catalog:
-
-- Hardware-grounded benchmarks (CPU, consumer GPU, real ASICs where available)
-- Cross-project integration (BenchClaw adapters, CHIMERA-as-a-substrate)
-- Honest reporting of negative results and method limitations
-- Reproducibility: pinned dependencies, deterministic seeds, published artifacts
-
-## Earlier work
-
-[pixelflow](https://github.com/Agnuxo1/pixelflow) (GPU texture reservoir
-computing) and the OpenCLAW / NEBULA / P2PCLAW research lines remain active and
-feed into the catalog above.
 
 ## Philosophy
 
-Open-source by default. Honest about what works and what doesn't. Designed to
-run on hardware you can own. Years of experiments distilled into reproducible
-code.
+- **Open-source by default.** Every project MIT or Apache. Audit the code before you trust it.
+- **Reproducible from commodity hardware.** No "you need an A100" excuses. RTX 3060 is the floor.
+- **Honest about what doesn't work.** Negative results in `ROADMAP.md`. Failed experiments documented.
+- **Distilled from years of experiments.** This isn't a startup pivot — these are 2018-2026 prototypes finally hitting daylight.
+
+---
+
+## How to support the work
+
+If any of this is useful to you, the highest-leverage thing you can do is **★ star a repo and tell one person**. The AI ecosystem reads stars before it reads code.
+
+- 🐛 **Found a bug?** Open an issue — I respond within 24h
+- 💡 **Have a use case?** Tell me — every story sharpens the threat model and the roadmap
+- 🤝 **Want to integrate?** Pull requests welcome. Adapters for new agent frameworks especially
+- 📰 **Writing about AI tooling?** Happy to walk through the threat models / architecture
 
 ---
 
 ## Contact
 
-- Email: [agnuxo1@gmail.com](mailto:agnuxo1@gmail.com)
-- GitHub: [@Agnuxo1](https://github.com/Agnuxo1)
-- HuggingFace: [@Agnuxo](https://huggingface.co/Agnuxo)
+- 📧 Email: [agnuxo1@gmail.com](mailto:agnuxo1@gmail.com)
+- 🐙 GitHub: [@Agnuxo1](https://github.com/Agnuxo1)
+- 🤗 HuggingFace: [@Agnuxo](https://huggingface.co/Agnuxo)
+- 🌐 P2PCLAW network: [p2pclaw.com](https://www.p2pclaw.com)
+
+*Solo developer · Spain · all timezones welcome*
