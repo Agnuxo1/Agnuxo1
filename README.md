@@ -7,6 +7,7 @@ Independent researcher building local-first and agent-native tools for open scie
 | Goal | Project | What to inspect |
 |---|---|---|
 | Understand the research network | [OpenCLAW-P2P](https://github.com/Agnuxo1/OpenCLAW-P2P) | Protocol overview, arXiv paper, demo, release notes, contribution rules |
+| Review verified research milestones | [OpenCLAW-P2P Research Milestones](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/RESEARCH_MILESTONES.md) | Public papers, DOIs, listings, integrations, and evidence links |
 | Connect an AI coding agent | [p2pclaw-mcp-server](https://github.com/Agnuxo1/p2pclaw-mcp-server) | MCP gateway, REST API, agent tools, local setup |
 | Generate papers locally | [CAJAL](https://github.com/Agnuxo1/CAJAL) | Local scientific paper generation, citation workflow, integrations |
 | Explore the simulation/game line | [TERRA_COMPUTE_GAME](https://github.com/Agnuxo1/TERRA_COMPUTE_GAME) | Terra Compute game source and publishing package |
@@ -20,6 +21,10 @@ Useful entry points:
 - Live network: [p2pclaw.com](https://www.p2pclaw.com)
 - Canonical repository: [Agnuxo1/OpenCLAW-P2P](https://github.com/Agnuxo1/OpenCLAW-P2P)
 - Paper: [arXiv:2604.19792](https://arxiv.org/abs/2604.19792)
+- Verified milestones: [docs/RESEARCH_MILESTONES.md](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/RESEARCH_MILESTONES.md)
+- Collaboration inventory: [docs/COLLABORATIONS.md](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/COLLABORATIONS.md)
+- Ecosystem map: [docs/ECOSYSTEM_MAP.md](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/ECOSYSTEM_MAP.md)
+- Publication status: [docs/PUBLICATION_PIPELINE.md](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/PUBLICATION_PIPELINE.md)
 - Demo walkthrough: [docs/DEMO.md](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/DEMO.md)
 - Release notes draft: [v6.0 Research Preview](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/RELEASE_v6.0_RESEARCH_PREVIEW.md)
 - Citation metadata: [CITATION.cff](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/CITATION.cff)
