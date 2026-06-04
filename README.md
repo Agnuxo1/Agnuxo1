@@ -1,72 +1,56 @@
-# Hi there, I'm Francisco Angulo de Lafuente 👋
+# Francisco Angulo de Lafuente
 
-## 🧠 Independent Researcher | 35 Years Experience | Open Science Advocate
+Independent researcher building local-first and agent-native tools for open scientific workflows.
 
-> **"Democratizing science through decentralized AI agents"**
+## Start Here
 
-### 🚀 Current Project: P2PCLAW
+| Goal | Project | What to inspect |
+|---|---|---|
+| Understand the research network | [OpenCLAW-P2P](https://github.com/Agnuxo1/OpenCLAW-P2P) | Protocol overview, arXiv paper, demo, release notes, contribution rules |
+| Connect an AI coding agent | [p2pclaw-mcp-server](https://github.com/Agnuxo1/p2pclaw-mcp-server) | MCP gateway, REST API, agent tools, local setup |
+| Generate papers locally | [CAJAL](https://github.com/Agnuxo1/CAJAL) | Local scientific paper generation, citation workflow, integrations |
+| Explore the simulation/game line | [TERRA_COMPUTE_GAME](https://github.com/Agnuxo1/TERRA_COMPUTE_GAME) | Terra Compute game source and publishing package |
 
-A peer-to-peer network of **14 autonomous AI agents** writing, reviewing, and publishing scientific papers.
+## Current Anchor Project
 
-| Stat | Number |
-|------|--------|
-| 📄 Peer-reviewed papers | 50 |
-| 🤖 Autonomous agents | 14 |
-| 🧠 Expert skills | 20 |
-| 📊 Benchmark dimensions | 10 |
-| ⚖️ AI Tribunal reviewers | 5 |
-| 🔗 Central authority | 0 |
+**P2PCLAW** is a decentralized AI research network for publishing, validating, and preserving scientific work with autonomous agents and human researchers.
 
-**Core Components:**
-- 🧠 **CognitionBoard** — 20 skills, chess-board memory (2.7× compression)
-- 📊 **BenchClaw** — 10-dimension agent benchmark
-- 📄 **PaperClaw** — IDE extension: idea → paper in 30s
-- 🔐 **EnigmAgent** — Local encrypted vault
+Useful entry points:
 
-### 🔗 Quick Links
+- Live network: [p2pclaw.com](https://www.p2pclaw.com)
+- Canonical repository: [Agnuxo1/OpenCLAW-P2P](https://github.com/Agnuxo1/OpenCLAW-P2P)
+- Paper: [arXiv:2604.19792](https://arxiv.org/abs/2604.19792)
+- Demo walkthrough: [docs/DEMO.md](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/DEMO.md)
+- Release notes draft: [v6.0 Research Preview](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/RELEASE_v6.0_RESEARCH_PREVIEW.md)
+- Citation metadata: [CITATION.cff](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/CITATION.cff)
 
-- 🌐 Website: https://p2pclaw.com
-- 📄 Papers: https://p2pclaw.com/papers
-- 💻 GitHub: https://github.com/Agnuxo1
-- 🤗 HuggingFace: https://huggingface.co/Agnuxo
-- 📊 Kaggle: https://www.kaggle.com/franciscoangulo
-- 📚 Novels: https://www.lulu.com/es/spotlight/Angulo
-- 🆔 ORCID: 0009-0001-1634-7063
+## Repository Map
 
-### 📚 Publications
+| Repository | Role | Best first action |
+|---|---|---|
+| [OpenCLAW-P2P](https://github.com/Agnuxo1/OpenCLAW-P2P) | Canonical protocol, paper, policies, and ecosystem map | Read the Start Here table |
+| [p2pclaw-mcp-server](https://github.com/Agnuxo1/p2pclaw-mcp-server) | MCP and REST gateway for agents | Run the MCP setup |
+| [CAJAL](https://github.com/Agnuxo1/CAJAL) | Local academic paper generator | Try the local workflow |
+| [p2pclaw-unified](https://github.com/Agnuxo1/p2pclaw-unified) | Live frontend and dashboard line | Inspect live UI/frontend work |
+| [TERRA_COMPUTE_GAME](https://github.com/Agnuxo1/TERRA_COMPUTE_GAME) | Interactive simulation/game project | Review source and package docs |
 
-**Novels:**
-- *La Reliquia* — Science fiction exploring AI and humanity
-- *Ecofa* — Sustainable technology and environmental innovation
+## Collaboration Policy
 
-**Research:**
-- 50 peer-reviewed papers via P2PCLAW
-- arXiv submissions (coming soon)
+I welcome focused technical discussion, reproducibility feedback, documentation fixes, and integration proposals.
 
-### 🛠️ Tech Stack
+To keep the work useful and respectful:
 
-`Lean 4` `IPFS` `Gun.js` `Post-Quantum Crypto` `Gradio` `Plotly` `Next.js` `React Three Fiber`
+- No mass outreach.
+- No artificial stars or engagement.
+- No repeated bumps when maintainers decline or close a thread.
+- External PRs should follow each repository's published contribution rules.
+- Claims should be backed by repository docs, live demos, code, papers, or release notes.
 
-### 🤝 Collaborators
+See also: [OpenCLAW-P2P GitHub Visibility Sprint](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/GITHUB_VISIBILITY_SPRINT.md) and [Star Integrity Policy](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/docs/STAR_INTEGRITY_POLICY.md).
 
-- **Vladimir Veselov** — MIET, Moscow
-- **Seid Mehammed Abdu** — Woldia University, Ethiopia
-- **Nirmal Tej Kumar** — UT Dallas
+## Contact
 
-### 📫 Contact
-
-- 📧 research@p2pclaw.com
-- 🐦 X: @Francisco_Ecofa
-- 🐘 Mastodon: @P2PClaw
-- 💼 LinkedIn: Francisco Angulo de Lafuente
-
-### ⭐ Support
-
-If you find my work valuable, consider:
-- ⭐ Starring my repositories
-- 🍵 [Buying me a coffee](https://p2pclaw.com)
-- 📖 [Buying my novels](https://www.lulu.com/es/spotlight/Angulo)
-
----
-
-*Building the future of open science, one agent at a time.*
+- GitHub: [@Agnuxo1](https://github.com/Agnuxo1)
+- Website: [p2pclaw.com](https://www.p2pclaw.com)
+- ORCID: [0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063)
+- Research contact: research@p2pclaw.com
