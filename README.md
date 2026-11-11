@@ -2,6 +2,10 @@
 
 Independent researcher building local-first and agent-native tools for open scientific workflows.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> This profile provides a task-oriented map of the research ecosystem, linking readers directly to canonical projects, evidence, demonstrations and citation metadata. It reduces the effort of identifying which repository to inspect or reuse and helps collaborators distinguish protocol, tooling and application work. Its contribution is discoverability and traceability, as organized in the <a href="#repository-map">repository map</a>.</sub>
+<!-- impact-note:end -->
+
 ## Start Here
 
 | Goal | Project | What to inspect |
